@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Based on https://github.com/mathiasbynens/dotfiles/blob/main/.bash_profile
 
 # Shell prompt based on the Solarized Dark theme.
 # Screenshot: http://i.imgur.com/EkEtphC.png
@@ -89,9 +90,9 @@ fi;
 
 # Highlight the user name when logged in as root.
 if [[ "${USER}" == "root" ]]; then
-	userStyle="${red}";
+	userStyle="${violet}";
 else
-	userStyle="${orange}";
+	userStyle="${blue}";
 fi;
 
 # Highlight the hostname when connected via SSH.

@@ -1,3 +1,4 @@
+[ -n "$PS1" ] && source ~/.zsh_profile;
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

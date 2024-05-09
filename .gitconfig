@@ -1,0 +1,11 @@
+[user]
+	email = sigfrid@stjarnholm.com
+	name = Sigfrid Stjärnholm
+
+[core]
+	# Use global `.gitignore`
+	excludesfile = ~/.gitignore_global
+
+	# Speed up commands involving untracked files such as `git status`.
+	# https://git-scm.com/docs/git-update-index#_untracked_cache
+	untrackedCache = true

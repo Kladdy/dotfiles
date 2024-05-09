@@ -1,4 +1,9 @@
 *
-!.gitignore
 !README.md
+
+!.gitignore
+!.gitconfig
+!.gitignore_global
+
 !.zshrc
+!.zsh_profile

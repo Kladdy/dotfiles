@@ -40,3 +40,5 @@ export OPENMC_DEPLETION_CHAIN="$HOME/nuclear_data/hdf5/Simplified chain/chain_ca
 export OPENMC_ENDF_DATA="$HOME/nuclear_data/endf/endf-b-vii.1"
 
 eval "$(zoxide init zsh --cmd cd)"
+
+alias ".."="cd .."

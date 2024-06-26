@@ -1,4 +1,4 @@
-DOTFILES_PATH="$HOME/projects/dotfiles"
+DOTFILES_PATH="$HOME/projects/tools/dotfiles"
 
 ln -sf $DOTFILES_PATH/.gitconfig $HOME/.gitconfig 
 ln -sf $DOTFILES_PATH/.gitignore_global $HOME/.gitignore_global
